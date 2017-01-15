@@ -77,6 +77,27 @@ font-size: 1.3em;
   text-align: center;
   font-size: 2.5em;
 }
+.form-map{
+  padding: 2%;
+  height: 100vh;
+}
+.form{
+  float: left;
+  width: 40%;
+  height: 50%;
+}
+.maps{
+  margin: auto;
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+.contenidocontact{
+  clear: both;
+  font-size: 1.5em;
+  text-align: center;
+}
+
 
 /*Footer*/
 footer{
