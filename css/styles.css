@@ -27,9 +27,60 @@ text-align: justify;
 padding: 2%;
 font-size: 1.3em;
 }
+.bioone{
+  margin: auto;
+  text-align: center;
+}
+.bioone img{
+  clear: both;
+  width: 30%;
+  margin: auto;
+  box-shadow: 1px 2px 10px grey;
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+.conteninfo{
+  text-align: justify;
+  padding: 3%;
+  padding-bottom: 1%;
+  font-size: 1.3em;
+
+}
+.clear-conten{
+  display: inline-block;
+
+}
+.conteninfo > img{
+  width: 45%;
+  float: left;
+  margin: 0.5%;
+  margin-right: 2%;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px grey;
+
+}
+/*Media para la imagen*/
+@media  (max-width:850px){
+  .conteninfo > img{
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+}
+.biotwo{
+  margin-bottom: 5%;
+}
+.img-galery{
+  clear: both;
+}
+.titlegal{
+  text-align: center;
+  font-size: 2.5em;
+}
 
 /*Footer*/
 footer{
+  clear: both;
   background: rgba(0,0,0,0.9);
   text-align: center;
   color: white;
